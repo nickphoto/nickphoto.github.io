@@ -1784,7 +1784,7 @@ input, select, textarea {
 
 			header.major > :first-child:after {
 				content: '';
-				background-color: #102C57;
+				background-color: #ffffffe8;
 				display: block;
 				height: 1px;
 				margin: 0.325em 0 0.5em 0;
@@ -2781,7 +2781,7 @@ input, select, textarea {
 				position: absolute;
 				top: 0;
 				width: 100%;
-				z-index: 8;
+				z-index: 4;
 			}
 
 			.tiles article:before {
@@ -2797,7 +2797,7 @@ input, select, textarea {
 				opacity: 0.85;
 				position: absolute;
 				width: 100%;
-				z-index: 4;
+				z-index: 2;
 			}
 
 			.tiles article:after {
