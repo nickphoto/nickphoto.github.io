@@ -2753,7 +2753,7 @@ input, select, textarea {
 			min-height: 23em;
 			overflow: hidden;
 			position: relative;
-			width: 100%;
+			width: 40%;
 		}
 
 			.tiles article .image {
@@ -2832,22 +2832,29 @@ input, select, textarea {
 				width: 60%;
 			}
 
-			.tiles article:nth-child(6n-5):before {
-				background-color: #ec8d81 ;
+			.tiles article:nth-child(6n - 5):before {
+				background-color: #001B48 ;
 			}
 
-			.tiles article:nth-child(6n-4):before {
-				background-color: #61cc3a ;
+			.tiles article:nth-child(6n - 4):before {
+				background-color: #02457A ;
 			}
 
-			.tiles article:nth-child(6n-3):before {
-				background-color: #9fa9a3;
+			.tiles article:nth-child(6n - 3):before {
+				background-color: #018ABE;
 			}
 
-			.tiles article:nth-child(6n-2):before {
-				background-color: #e3e0cc;
+			.tiles article:nth-child(6n - 2):before {
+				background-color: #97CADB;
 			}
 
+			.tiles article:nth-child(6n - 1):before {
+				background-color: #D6EBEE;
+			}
+
+			.tiles article:nth-child(6n):before {
+				background-color: #001B48;
+			}
 
 		@media screen and (max-width: 1280px) {
 
@@ -3405,12 +3412,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			pointer-events: none;
-			background-color: #2b4ae600;
+			background-color: #242943;
 			content: '';
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.40;
+			opacity: 0.30;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -3487,24 +3494,32 @@ input, select, textarea {
 			}
 
 		#banner.style1:after {
-			background-color: #f0f0f0;
+			background-color: #F1F6F9;
 		}
 
 		#banner.style2:after {
-			background-color: #c5d5c5;
+			background-color: #394867;
 		}
 
 		#banner.style3:after {
-			background-color: #9fa9a3;
+			background-color: #212A3E;
 		}
 
 		#banner.style4:after {
-			background-color: #e3e0cc
+			background-color: #9BA4B5
 		;
 		}
 
+		#banner.style5:after {
+			background-color: #8ea9e8;
+		}
+
+		#banner.style6:after {
+			background-color: #87c5a4;
+		}
+
 		body.is-preload #banner:after {
-			opacity: 0.2;
+			opacity: 1.0;
 		}
 
 		body.is-preload #banner > .inner {
