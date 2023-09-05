@@ -3502,7 +3502,7 @@ input, select, textarea {
 		}
 
 		#banner.style3:after {
-			background-color: ##9fa9a3;
+			background-color: #9fa9a3;
 		}
 
 		#banner.style4:after {
@@ -3511,7 +3511,7 @@ input, select, textarea {
 		}
 
 		body.is-preload #banner:after {
-			opacity: 1.0;
+			opacity: 0.2;
 		}
 
 		body.is-preload #banner > .inner {
