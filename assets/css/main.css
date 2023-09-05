@@ -2828,7 +2828,7 @@ input, select, textarea {
 				opacity: 0;
 			}
 
-			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2).tiles article:nth-child(4n - 3) {
+			.tiles article:nth-child(1), .tiles article:nth-child(2), .tiles article:nth-child(3) , .tiles article:nth-child(4) {
 				width: 50%;
 			}
 
