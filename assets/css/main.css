@@ -2828,32 +2828,32 @@ input, select, textarea {
 				opacity: 0;
 			}
 
-			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
-				width: 60%;
+			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2).tiles article:nth-child(4n - 3) {
+				width: 50%;
 			}
 
 			.tiles article:nth-child(6n - 5):after {
-				background-color: #001a4808 ;
+				background-color: #001a4834 ;
 			}
 
 			.tiles article:nth-child(6n - 4):after {
-				background-color: #02447a09 ;
+				background-color: #02447a63 ;
 			}
 
 			.tiles article:nth-child(6n - 3):after {
-				background-color: #0188be1a;
+				background-color: #0188be60;
 			}
 
 			.tiles article:nth-child(6n - 2):after {
-				background-color: #97cadb11;
+				background-color: #97cadb61;
 			}
 
 			.tiles article:nth-child(6n - 1):after {
-				background-color: #d6ebee1e;
+				background-color: #d6ebee6d;
 			}
 
 			.tiles article:nth-child(6n):after {
-				background-color: #001a481e;
+				background-color: #001a4875;
 			}
 
 		@media screen and (max-width: 1280px) {
