@@ -2767,7 +2767,7 @@ input, select, textarea {
 
 			.tiles article h3 {
 				font-size: 1.75em;
-				color: #394867;
+				color: #ffffff;
 			}
 
 				.tiles article h3 a:hover {
@@ -2781,7 +2781,7 @@ input, select, textarea {
 				position: absolute;
 				top: 0;
 				width: 100%;
-				z-index: 4;
+				z-index: 8;
 			}
 
 			.tiles article:before {
@@ -2797,7 +2797,7 @@ input, select, textarea {
 				opacity: 0.85;
 				position: absolute;
 				width: 100%;
-				z-index: 2;
+				z-index: 4;
 			}
 
 			.tiles article:after {
@@ -2841,11 +2841,11 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(3):after {
-				background-color: #0188be60;
+				background-color: #001a48b8;
 			}
 
 			.tiles article:nth-child(4):after {
-				background-color: #97cadb61;
+				background-color: #02447ac0;
 			}
 
 			.tiles article:nth-child(6n - 1):after {
