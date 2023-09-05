@@ -2832,19 +2832,19 @@ input, select, textarea {
 				width: 50%;
 			}
 
-			.tiles article:nth-child(6n - 5):after {
+			.tiles article:nth-child(1):after {
 				background-color: #001a48b8 ;
 			}
 
-			.tiles article:nth-child(6n - 4):after {
+			.tiles article:nth-child(2):after {
 				background-color: #02447ac0 ;
 			}
 
-			.tiles article:nth-child(6n - 3):after {
+			.tiles article:nth-child(3):after {
 				background-color: #0188be60;
 			}
 
-			.tiles article:nth-child(6n - 2):after {
+			.tiles article:nth-child(4):after {
 				background-color: #97cadb61;
 			}
 
