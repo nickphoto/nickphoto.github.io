@@ -2837,15 +2837,15 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(2):after {
-				background-color: #02447ac0 ;
+				background-color: #ffc33653 ;
 			}
 
 			.tiles article:nth-child(3):after {
-				background-color: #001a48b8;
+				background-color: #ffc33653 ;
 			}
 
 			.tiles article:nth-child(4):after {
-				background-color: #02447ac0;
+				background-color: #ffc33653 ;
 			}
 
 			.tiles article:nth-child(6n - 1):after {
