@@ -2832,27 +2832,27 @@ input, select, textarea {
 				width: 60%;
 			}
 
-			.tiles article:nth-child(6n - 5)::after {
+			.tiles article:nth-child(6n - 5):after {
 				background-color: #001B48 ;
 			}
 
-			.tiles article:nth-child(6n - 4)::after {
+			.tiles article:nth-child(6n - 4):after {
 				background-color: #02457A ;
 			}
 
-			.tiles article:nth-child(6n - 3)::after {
+			.tiles article:nth-child(6n - 3):after {
 				background-color: #018ABE;
 			}
 
-			.tiles article:nth-child(6n - 2)::after {
+			.tiles article:nth-child(6n - 2):after {
 				background-color: #97CADB;
 			}
 
-			.tiles article:nth-child(6n - 1)::after {
+			.tiles article:nth-child(6n - 1):after {
 				background-color: #D6EBEE;
 			}
 
-			.tiles article:nth-child(6n)::after {
+			.tiles article:nth-child(6n):after {
 				background-color: #001B48;
 			}
 
