@@ -3412,7 +3412,7 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			pointer-events: none;
-			background-color: #242943;
+			background-color: #2b4ae600;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3494,28 +3494,20 @@ input, select, textarea {
 			}
 
 		#banner.style1:after {
-			background-color: #F1F6F9;
+			background-color: #f0f0f0;
 		}
 
 		#banner.style2:after {
-			background-color: #394867;
+			background-color: #c5d5c5;
 		}
 
 		#banner.style3:after {
-			background-color: #212A3E;
+			background-color: ##9fa9a3;
 		}
 
 		#banner.style4:after {
-			background-color: #9BA4B5
+			background-color: #e3e0cc
 		;
-		}
-
-		#banner.style5:after {
-			background-color: #8ea9e8;
-		}
-
-		#banner.style6:after {
-			background-color: #87c5a4;
 		}
 
 		body.is-preload #banner:after {
